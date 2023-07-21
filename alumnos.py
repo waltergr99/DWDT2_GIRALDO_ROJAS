@@ -1,9 +1,9 @@
 class Alumno:
-    def __init__(self, nombre, apellido, edad, nacionalidad):
-        self.nombre = nombre
-        self.apellido = apellido
-        self.edad = edad
-        self.nacionalidad = nacionalidad
-        self.notas = []
+    def __init__(self, nombreAlumno, apellidoAlumno, edadAlumno, nacionalidadAlumno):
+        self.nombreAlumno = nombreAlumno
+        self.apellidoAlumno = apellidoAlumno
+        self.edadAlumno = edadAlumno
+        self.nacionalidadAlumno = nacionalidadAlumno
+        self.notasAlumno = []
 
 
